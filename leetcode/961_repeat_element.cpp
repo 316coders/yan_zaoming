@@ -15,7 +15,7 @@ int repeatedNTimes(vector<int>& A) {
         for(auto it:hash){
             if(it.second==N)
             {
-                res = it.second;
+                res = it.first;
             }
         }
         return res;
