@@ -1,2 +1,3 @@
 # yan_zaoming
- leetcode
+ This program is a exceres for leetcode.
+ 
