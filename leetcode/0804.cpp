@@ -10,7 +10,6 @@
  * [1,2],
  * []]
  * */
-
 #include<vector>
 #include<iostream>
 #include<algorithm>
@@ -62,12 +61,11 @@ public:
                 //还有一个问题： 是否与result里面的的元素重复 判断
                 curent_nums.push_back(nums[i]);
                 result.push_back(curent_nums);
-            }
+            }   //注意continue的位置
             else
             {
                 continue;
             }
-            
             backtrack(nums,curent_nums);
             curent_nums.pop_back();
         }
