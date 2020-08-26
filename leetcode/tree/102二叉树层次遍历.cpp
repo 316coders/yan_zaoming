@@ -23,10 +23,11 @@ public:
             ret.push_back(vector <int> ());
             for (int i = 1; i <= currentLevelSize; ++i) {
 
-                auto node = q.front(); q.pop();
-                //这个auto 类型 操作也秀， 避免了 TreeNode*->int 与指针的比较
+                auto node = q.front();
+                q.pop();
+                //这个auto 类型， 避免了 TreeNode*->int 与指针的比较
                 ret.back().push_back(node->val);
-                //这个操作厉害  从ret当中返回一个末尾元素vector<>类型
+                //从ret当中返回一个末尾元素vector<>类型
                 //然后用这个vector<>来push_back();
 
                 if (node->left) q.push(node->left);

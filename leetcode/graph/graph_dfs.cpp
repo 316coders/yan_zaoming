@@ -60,6 +60,8 @@ void graph_dfs::def(int start, int end, double &rate, double temp, double maxRat
             cout<<"%%:"<<p.first <<"-"<<st[p.first]<<endl;
 
             def(p.first, end,rate,temp, maxRate);//递归获取下一批节点
+
+            //回溯操作
             temp = temp/p.second; //撤销操作
             st[p.first] = 0; //撤销操作
         }
