@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Clion_Progects/tree/BFS.cpp
+BFS.h
+F:/Clion_Progects/tree/BFS.h
+
+F:/Clion_Progects/tree/BFS.h
+tree.h
+F:/Clion_Progects/tree/tree.h
+string
+F:/Clion_Progects/tree/string
+queue
+F:/Clion_Progects/tree/queue
+vector
+F:/Clion_Progects/tree/vector
+
+F:/Clion_Progects/tree/tree.h
+
